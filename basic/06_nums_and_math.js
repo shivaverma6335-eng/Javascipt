@@ -35,8 +35,7 @@ console.log(Math.floor(5.8));  //5   // always lower value
 console.log(Math.min(4,3,2,1));
 console.log(Math.max(4,3,2,1));
 
-console.log(Math.random()) // random number b/w 0-1 
-
+console.log(Math.random()) // random number b/w 0-1  [0,1)
 
 console.log((Math.random()*10) + 1);//number 1-10
  

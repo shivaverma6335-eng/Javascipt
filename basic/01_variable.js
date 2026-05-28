@@ -3,7 +3,7 @@ let accountEmail = "shiva@635gmail.com"
 var accountPassword = "12234"
 accountCity = "Lucknow"
 let accountState
-//accountId = 2  // not allowed
+// accountId = 2  // not allowed
 console.log(accountId);
 
 
