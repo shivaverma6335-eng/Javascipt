@@ -34,5 +34,38 @@ function loginUserMessage(username = "Sam"){    // by default username is Sam
 
 
 
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+  // ecommerce
+// function calculateCartPrice(...num){   /// ... => rest operator
+//     return num;
+// }
 
+
+// console.log(calculateCartPrice(100,499,599,999));
+
+function calculateCartPrice(val1,val2,...num){   /// ... => rest operator
+    return num;
+}
+    
+console.log(calculateCartPrice(100,499,599,999));     // val1 = 100, val2 = 499  rest values goes to num
+
+
+
+const user = {
+    username : "shiva",
+    price : 199
+}
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);    // ye pta krna padega ki username aur price ya koi bhi property exist krta h ki nhi 
+}
+     
+handleObject(user)
+
+const myNewArray = [400,500,800]
+
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+
+console.log(returnSecondValue(myNewArray));
