@@ -1,6 +1,6 @@
 // objects
-// declaration using literals => singleton nhi banega
-// declaration using constructor => sinleton banega
+// declaration using literals => singleton nhi banega  (non singleton object)
+// declaration using constructor => sinleton banega   ( singleton object)
 
 //singleton
 // Object.create (Constructor)
