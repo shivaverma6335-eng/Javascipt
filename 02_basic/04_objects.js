@@ -59,11 +59,49 @@ const user = [
 
 // console.log(user[2].email);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+     //Destructuring
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "hitesh",
+}
+
+const {courseInstructor: instructor} = course
+// console.log(courseInstructor);
+// console.log(instructor);
+
+
+
+// API
+// backend se data json format me aata h 
+
+// json 
+// {
+//     "name" : "shiva",
+//     "course" : "Js  hindi",
+//     "price" : "free",
+// }
+
+  // json
+// [
+//     {},
+//     {},
+//     {},
+// ]
+ 
+
+// json array aur object dono ho skta h
+
+//use json formatter,random user api
