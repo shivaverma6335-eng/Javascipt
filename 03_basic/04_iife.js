@@ -16,6 +16,7 @@
 })();
 
 (function aurcode(name){
+    //parameter pass krke
     console.log(`DB CONNECTED TWO ${name}`);
 })("Shiva");
 
