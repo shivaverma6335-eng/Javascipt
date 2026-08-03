@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #313131; color: #ffff;">
+    <h1>chai aur javascript</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+   const newDate = function(){
+        console.log("shiva",Date.now());
+    }
+    let inti = null
+    const interval =  function(){
+        if(inti === null)
+             inti = setInterval(newDate,1000)
+    }
+//    clearInterval(intervalId)
+   document.querySelector('#start').addEventListener('click', function(){
+        interval() 
+   })
+   document.getElementById('stop').addEventListener('click',function(){
+    clearInterval(inti)
+    inti = null  
+   })
+</script>
+</html>

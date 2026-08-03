@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>chai aur code</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    // jab window console me dalte h then bhut sare function ya method milte h settimeout ye sab to inko sbko padh lena imp h
+    //  setTimeout(function(){
+    //     console.log('Shiva');        
+    //  },2000)
+   const sayShiva = function(){
+        console.log('Shiva');        
+      }
+     setTimeout(sayShiva,5000)
+     const change = function(){
+     document.querySelector('h1').innerHTML = 'best js series'
+     }
+
+    const changeMe = setTimeout(change,5000)
+    document.getElementById('stop').addEventListener('click',function(){
+          clearTimeout(changeMe)
+    }) 
+</script>
+</html>
